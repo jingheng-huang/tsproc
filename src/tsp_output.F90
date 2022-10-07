@@ -2015,10 +2015,10 @@ contains
 9088    format(2I6, '   single   point   1   0   0')
         if (isvd == 0) then
             write (iunit, 9089)
-9089        format('10.0   2.0    0.3    0.03    10  999')
+9089        format('10.0   2.0    0.3    0.01    10  999   lamforgive')
         else
             write (iunit, 9090)
-9090        format('10.0  -3.0    0.3    0.03     1  999')
+9090        format('10.0  -3.0    0.3    0.01     1  999   lamforgive')
         end if
         write (iunit, 9091)
 9091    format('10.0   10.0   1.0e-3')
@@ -2030,7 +2030,7 @@ contains
 9093        format('0.1   aui')
         end if
         write (iunit, 9094)
-9094    format('30   .005  4   4  .005   4')
+9094    format('50   .005  4   4  .005   4')
         write (iunit, 9095)
 9095    format('1    1    1')
         if (isvd == 1) then
