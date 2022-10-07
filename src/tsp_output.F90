@@ -2021,7 +2021,7 @@ contains
 9090        format('10.0  -3.0    0.3    0.03     1  999')
         end if
         write (iunit, 9091)
-9091    format('5.0   5.0   1.0e-3')
+9091    format('10.0   10.0   1.0e-3')
         if (auiyesno == 0) then
             write (iunit, 9092)
 9092        format('0.1  noaui')
