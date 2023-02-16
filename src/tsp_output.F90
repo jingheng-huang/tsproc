@@ -2015,7 +2015,7 @@ contains
 9088    format(2I6, '   single   point   1   0   0')
         if (isvd == 0) then
             write (iunit, 9089)
-9089        format('10.0   2.0    0.3    0.01    10  999   lamforgive')
+9089        format('10.0   5    0.3    0.01    10  999   lamforgive')
         else
             write (iunit, 9090)
 9090        format('10.0  -3.0    0.3    0.01     1  999   lamforgive')
